@@ -1,6 +1,6 @@
 # BLOG DOSI
 
-BLOG DOSI is a SPA Blog developped using StencilJS and working on The REST API is located here https://polymer-101-workshop.cleverapps.io/api/blogpost  
+BLOG DOSI is a SPA Blog developped using StencilJS and working on The REST API that is located here https://polymer-101-workshop.cleverapps.io/api/blogpost  
 
 It has the following features :
 
