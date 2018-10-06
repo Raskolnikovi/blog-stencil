@@ -8,8 +8,9 @@ export class AppRoot {
 
   render() {
     return (
+      <div id="root">
       <div>
-
+      
       <div class="main-navigation">
       <nav class="nav">
         <div class="container">
@@ -65,7 +66,17 @@ export class AppRoot {
           </stencil-router>
         </main>
       
-          
+        </div>
+        <div class="hero-footer footer footer-custom">
+      <div class="container">
+	<div class="has-text-centered">
+	  <span class="icon">
+	    <i class="fa fa-github"></i>
+	  </span>
+	  <p>template by <a href="http://github.com/plasticneko">github.com/plasticneko</a></p>
+	</div>
+      </div>
+    </div>
                 
       </div>
       
