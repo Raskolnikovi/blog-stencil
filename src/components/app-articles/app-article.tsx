@@ -69,6 +69,15 @@ export class AppArticle {
 		  <div class="post-single-content">
 		    <p>{this.article.article}</p>
 		     </div>
+         <stencil-route-link url={'/editarticle/'+this.article._id}>
+      <a class="pagination-next pagination-link is-read">Edit</a>
+      </stencil-route-link>
+      
+      <button class="pagination-next pagination-link is-current"
+                        onClick={()  =>this.deleteArticle() }
+                      >
+                        DELETE
+      </button>
 		</div>
 	      </div>
 	    </div>

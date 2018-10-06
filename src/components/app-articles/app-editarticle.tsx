@@ -50,8 +50,7 @@ import { MatchResults, RouterHistory } from '@stencil/router';
         body: JSON.stringify(postedited)
       })
         .then(function(res) {
-          this.history.goBack();
-          return res.json();
+          console.log(res.json());
         })
         .then(function(data) {
           console.log(JSON.stringify(data));

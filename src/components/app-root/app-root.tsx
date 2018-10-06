@@ -20,12 +20,12 @@ export class AppRoot {
           </div>
          
           <div class="nav-center is-hidden-desktop is-hidden-tablet">                
-            <a class="nav-item is-tab" href="addarticle">Add Article</a>
+            <a class="nav-item is-tab" href="/addarticle">Add Article</a>
             <a class="nav-item is-tab" href="#">About</a>
           </div>
           
           <div class="nav-right is-hidden-mobile">
-            <a class="nav-item is-tab" href="addarticle">Add Article</a>
+            <a class="nav-item is-tab" href="/addarticle">Add Article</a>
             <a class="nav-item is-tab" href="#">About</a>            
           </div>
         </div>
